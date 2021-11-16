@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lableImg_web" />
+        <module name="lableImg_common_db" />
+        <module name="lableImg_common" />
+        <module name="lableImg_eureka" />
+        <module name="lableImg_service" />
+        <module name="lableImg_service_api" />
+        <module name="lableImg_gateway" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lableImg_common" options="-parameters" />
+      <module name="lableImg_common_db" options="-parameters" />
+      <module name="lableImg_eureka" options="-parameters" />
+      <module name="lableImg_gateway" options="-parameters" />
+      <module name="lableImg_parent" options="-parameters" />
+      <module name="lableImg_service" options="-parameters" />
+      <module name="lableImg_service_api" options="-parameters" />
+      <module name="lableImg_web" options="-parameters" />
+    </option>
+  </component>
+</project>
